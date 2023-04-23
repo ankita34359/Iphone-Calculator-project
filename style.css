@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+h1{
+  color: #c280c2;
+  text-align:center
+}
+
+table{
+
+  margin: auto;
+  width: 50px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: black;
+  padding: 10px;
+}
+
+button{
+
+
+  background-color: #3e3c3c;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: white;
+}
+
+#class{
+  background-color:#e39816 ;
+}
+
+#box{
+background-color: #a39e9e; 
+}
+
+#textbox{
+  background-color: black;
+  border-radius: 10px;
+  height: 150px;
+  width: 200px;
+  border: black;
+  color :white;
+}
+
+#zero{
+     width: 100px;
+     text-align: left;
+  
+}

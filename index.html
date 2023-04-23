@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> My iphone calculator </title>
+  <link rel="stylesheet" href="style.css">
+  <script src = "script.js"></script>
+</head>
+
+<body>
+  <h1> My iphone calculator </h1>
+  <table>
+<tr>
+<td colspan="4"> <input type="text" id="textbox" disabled</td>
+
+</tr>
+
+    
+<tr> 
+<td><button id="box" onclick="clear_screen()"> AC </button> </td>
+<td><button id="box" onclick="update_text('+/-')"> +/-</button></td>
+<td><button id="box" onclick="update_text('%')"> % </button></td>
+<td ><button id="class" onclick="update_text('/')"> / </button></td>
+</tr>
+
+<tr>
+<td><button onclick="update_text('7')"> 7 </button></td>
+<td><button onclick="update_text('8')"> 8 </button></td>
+<td><button onclick="update_text('9')"> 9 </button></td>
+ <td ><button id="class" onclick="update_text('*')"> * </button></td> 
+</tr>
+
+  <tr>
+  <td><button onclick="update_text('4')"> 4 </button></td>
+ <td><button onclick="update_text('5')"> 5 </button></td>
+ <td><button onclick="update_text('6')"> 6 </button></td>
+ <td ><button id="class" onclick="update_text('-')"> - </button></td>  
+  </tr>  
+
+<tr>
+<td><button onclick="update_text('1')"> 1 </button></td>
+<td><button onclick="update_text('2')"> 2 </button></td>
+<td><button onclick="update_text('3')"> 3 </button></td>
+<td ><button id="class" onclick="update_text('+')"> + </button></td>
+</tr>
+
+<tr>
+<td colspan="2" ><button id="zero" onclick="update_text('0')"> 0 </button></td>
+<td><button onclick="update_text('.')"> . </button></td>
+<td ><button id="class" onclick="calculate_result()"> = </button></td>
+  
+</tr>   
+  </table>
+
+</body>
+
+</html>
